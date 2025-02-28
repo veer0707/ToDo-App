@@ -14,7 +14,7 @@ body {
   width: 80%;
   height: 90vh;
   margin: 25px auto;
-  overflow: hidden;
+  overflow: auto;
   border-radius: 10px;
   border: 4px solid #b1c9bb;
   font-family: "Poppins";
@@ -30,7 +30,7 @@ h2 {
 h1 {
   font-family: "Sigmar";
   font-size: 45px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h2 {
@@ -47,13 +47,13 @@ h2 {
 
 .new-task-container label {
   color: black;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
 }
 
 .new-task-container input {
   color: black;
-  font-weight: 400;
+  font-weight: 300;
   height: 60%;
   font-size: large;
 }
@@ -64,23 +64,23 @@ h2 {
   border-radius: 5px;
   background: #39a0ca;
   margin: 15px 0;
-  font-size: large;
+  font-size: medium;
   min-height: 5rem;
 }
 
 .todo-list {
   float: left;
   width: 46%;
-  font-weight: 400;
-  font-size: large;
+  font-weight: 300;
+  font-size: medium;
   min-height: 5rem;
 }
 
 .complete-list {
   float: right;
   width: 46%;
-  font-weight: 400;
-  font-size: large;
+  font-weight: 300;
+  font-size: medium;
   min-height: 5rem;
 }
 
@@ -107,7 +107,7 @@ button {
   background: #fbca1f;
   font-family: "Poppins";
   padding: 10px 12px;
-  font-weight: 900;
+  font-weight: 800;
   font-size: 16px;
   border: 1px solid black;
   border-radius: 10px;
