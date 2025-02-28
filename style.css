@@ -119,12 +119,4 @@ button {
   text-decoration: none;
 }
 
-button:hover {
-  transform: translate(-0.05em, -0.05em);
-  box-shadow:0.125em 0.125em;
-}
 
-button:active {
-  transform: translate(0.05em, 0.05em);
-  box-shadow: 0.125em 0.125em;
-}
