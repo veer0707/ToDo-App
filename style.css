@@ -92,19 +92,20 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 li {
+ display: flex; 
+  justify-content: space-between;
+  align-items: center;
   padding: 10px;
   border-bottom: 1px dotted #ccc;
 }
 
 .complete-list li {
   text-decoration: line-through;
-}
-
-.delete {
-  float: right;
 }
 
 button {
