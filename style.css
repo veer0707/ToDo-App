@@ -76,7 +76,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .complete-list {
@@ -85,7 +85,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 ul {
@@ -118,6 +118,7 @@ button {
   box-shadow: 2px 2px;
   cursor: pointer;
   height: 45px;
+  margin-top: auto;
 }
 
 button:hover {
