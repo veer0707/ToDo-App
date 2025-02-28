@@ -19,6 +19,7 @@ body {
   border: 4px solid #b1c9bb;
   font-family: "Poppins";
   overflow: auto;
+  min-width: 50px;
 }
 
 h1,
@@ -75,7 +76,6 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-  overflow: auto;
 }
 
 .complete-list {
@@ -84,7 +84,6 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-   overflow: auto;
 }
 
 ul {
