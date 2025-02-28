@@ -110,23 +110,23 @@ li {
 button {
   background: #fbca1f;
   font-family: "Poppins";
-  padding: 10px 12px;
+  padding:0.625em 0.75em;
   font-weight: 700;
   font-size: 16px;
   border: 1px solid black;
-  border-radius: 10px;
-  box-shadow: 2px 2px;
+  border-radius:  0.625em;
+  box-shadow: 0.125em 0.125em;
   cursor: pointer;
-  height: 45px;
+  height:2.8125em;
   margin-top: auto;
 }
 
 button:hover {
   transform: translate(-0.05em, -0.05em);
-  box-shadow: 2px 2px;
+  box-shadow:0.125em 0.125em;
 }
 
 button:active {
   transform: translate(0.05em, 0.05em);
-  box-shadow: 2px 2px;
+  box-shadow: 0.125em 0.125em;
 }
