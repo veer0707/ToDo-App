@@ -76,6 +76,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
+  display: inline-block;
 }
 
 .complete-list {
@@ -84,6 +85,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
+  display: inline-block;
 }
 
 ul {
