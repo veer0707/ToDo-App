@@ -76,7 +76,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-  /*display: inline-block;*/
+  
 }
 
 .complete-list {
@@ -85,7 +85,7 @@ h2 {
   font-weight: 200;
   font-size: medium;
   min-height: 5rem;
-  /*display: inline-block;*/
+
 }
 
 ul {
@@ -96,16 +96,12 @@ ul {
   flex-direction: column;
 }
 
-li {
+.complete-list li {
  display: flex; 
   justify-content: space-between;
   align-items: center;
   padding: 10px;
   border-bottom: 1px dotted #ccc;
-}
-
-.complete-list li {
-  text-decoration: line-through;
 }
 
 button {
@@ -120,6 +116,7 @@ button {
   cursor: pointer;
   height:2.8125em;
   margin-top: auto;
+  text-decoration: none;
 }
 
 button:hover {
